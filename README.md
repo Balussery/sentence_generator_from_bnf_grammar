@@ -1,5 +1,5 @@
 # Sentence generator (from bnf grammar)
-This script generates and saves all possible sentences from a given bnf grammar. Sample grammar is given in the repository 
+This script generates and saves all possible sentences from a given bnf grammar. Sample grammar is given in the repository.
 
 # Usage
 ~~~
