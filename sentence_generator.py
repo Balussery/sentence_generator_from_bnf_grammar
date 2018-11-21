@@ -212,7 +212,7 @@ class SentenceGeneratorFromGrammar(object):
 
         # start the recursion from root
         return_replaced(parent=variables_dic[self.root], temp_destination_list=set())
-        print('SUCCESSFULL. PLS CHECK THE FILE: sentences.txt')
+        print('SUCCESSFUL. PLS CHECK THE FILE: sentences.txt')
 
     def generate(self):
         content = self.clear_comments()
