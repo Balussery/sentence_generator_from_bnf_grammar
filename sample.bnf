@@ -1,0 +1,38 @@
+#BNF+EMV2.1;
+
+!grammar simple_grammar;
+
+!start <main>;
+
+/*Main Rule*/
+<main>:
+<accept>;
+
+/*
+<polite>:
+[<greeting>]
+*/
+
+<accept>:
+[<det>] [<furniture>] <aux_verb> <chang_verb_furniture> to the <locations> ;
+
+<det>:
+the | a ;
+
+<now>:
+now | currently;
+
+<aux_verb>:
+is;
+
+<chang_verb_door>:
+closed | open;
+
+<locations>:
+bedroom | dining room | living room | kitchen | bathroom | hallway | entrance hall | entrance;
+
+<chang_verb_furniture>:
+changed | moved | relocated | transferred | shifted | sent | conveyed;
+
+<furniture>:
+trash bin | plant | side table 1 | coffee table | arm chair 1 | arm chair 2 | dining chair | kitchen chair;
